@@ -1,0 +1,138 @@
+/* Perdón profe, no me gustaba cómo quedaba con los fonts que vienen por defecto y busqué cómo cambiar el font-family en internet */
+
+@font-face {
+    font-family: 'cs_regular';
+    src: url('../fonts/cs_regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    background-image: url(../imgs/fondogalaxia.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'cs_regular', 'sans-serif', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    text-align: center;
+    color: white;
+}
+
+
+.header {
+    margin: auto;
+    padding: 3rem;
+    height: 15rem;
+    background-image: url("../imgs/fondo1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title {
+    font-size: 5rem;
+    font-family: 'cs_regular';
+    color: rgb(216, 168, 11);
+}
+
+.subtitle {
+    font-size: 3rem;
+    font-family: 'cs_regular';
+    color: yellowgreen;
+}
+
+.parrafo1 {
+    font-size: 2.5rem;
+    color: rgb(216, 168, 11);
+
+}
+
+.parrafo2 {
+    font-size: 1.8rem;
+    color: white;
+
+}
+
+a.correo {
+    font-size: 2rem;
+    color: rgb(114, 184, 11);
+    text-decoration: none;
+}
+
+
+a.correo:hover {
+    /* esto lo busqué en internet, porque es como típico que los enlaces cambian de color cuando uno pasa el mouse encima */
+    color: white;
+}
+
+table {
+    /* border: solid white; */
+    /* lo anterior está comentado porque lo usé para revisar si el centrado de la tabla se veía bien*/
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.images {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+a.names:hover {
+    color: yellow;
+}
+
+.names {
+    font-family: 'cs_regular';
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+a.prices:hover {
+    color: deeppink;
+}
+
+.prices {
+    font-family: 'cs_regular';
+    font-style: italic;
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.arriba {
+    border: 2px solid rgb(114, 184, 11);
+    margin-bottom: 2rem;
+}
+
+.abajo {
+    border: 2px solid rgb(114, 184, 11);
+    margin-bottom: 1rem;
+}
+
+.footer {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.contacto {
+    text-align: right;
+    margin-right: 30px;
+}
+
+.pagos {
+    font-size: 2rem;
+    color: white;
+
+}
+
+.mediosdepago {
+    width: 15rem;
+    height: auto;
+}
+
+/* Profe una pregunta: Cuando abro el index en otro computador algunos textos se descentran, a pesar de que usé rem y centrado en el estilo. ¿a qué se debe aquello? */
